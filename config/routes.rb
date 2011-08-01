@@ -1,4 +1,10 @@
 Glossyfish::Application.routes.draw do
+  get "pages/about"
+
+  get "pages/home"
+
+  get "pages/contact"
+
   resources :users
 
   get "welcome/index"
